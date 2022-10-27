@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+     
+    <h2>JavaScript Numbers</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        var x1 = 34.00;
+        var x2 = 34;
+        var x3 = 3.14;
+
+        document.getElementById("demo").innerHTML =
+        x1 + "<br>" + x2 + "<br>" + x3;
+    </script>
+
+    <br><br>
+
+    <h2>JavaScript Strings</h2>
+
+    <p id="demo2"></p>
+
+    <script>
+        const answer1 = "It's alright";
+        const answer2 = "He is called 'Johnny'";
+        const answer3 = 'He is called "Johnny"'; 
+
+        document.getElementById("demo2").innerHTML =
+        answer1 + "<br>" + answer2 + "<br>" + answer3; 
+    </script>
+    
+    <br><br>
+
+    <h2>JavaScript Variables</h2>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo3"></p>
+
+    <script>
+        let x = 5;
+        let y = 6;
+        let z = x + y;
+        document.getElementById("demo3").innerHTML =
+        "The value of z is: " + z;
+    </script>
+
+    <br><br>
+ 
+    <h2>Variable Assgin</h2>
+    
+    <p id="demo4"></p>  
+
+    <script>
+        var blue = 11;
+        var red = 44;
+        var purple = blue + red
+        document.getElementById("demo4").innerHTML =
+        "The value of purple is: " +purple;
+    </script>
+    
+    <br><br>
+
+    <h2>One single line</h2>
+
+    <P id="demo5">On one single line, declare three variables with the following names and values</P>
+    
+    <script>
+    var firstname = "lucy", lastname = "John", age = "25";
+    document.getElementById("demo5").innerHTML =
+    firstname + "<br>" + lastname + "<br>" + age;
+    </script>
+
+
+</body>
+</html>
